@@ -19,11 +19,17 @@
         <h2 class="heading">Secure Login</h2>
         <div class="credential">
           <ion-icon name="person-outline" class="icon"></ion-icon>
-          <input placeholder="Username" type="text" />
+          <div class="input-text">
+            <input type="text" required />
+            <div class="label">Username</div>
+          </div>
         </div>
         <div class="credential">
           <ion-icon name="key-outline" class="icon"></ion-icon>
-          <input placeholder="Password" type="password" />
+          <div class="input-text">
+            <input type="password" required />
+            <div class="label">Password</div>
+          </div>
         </div>
         <button class="btn">Login</button>
         <p class="forgot">
