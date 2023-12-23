@@ -1,6 +1,6 @@
 # Useful Modules
 
-### Input text box focus css trick
+### 001 - Input text box focus css trick
 
 **Normal textbox** \
 This is the normal textbox without clicking to enter details.
@@ -13,8 +13,8 @@ After applying focus pseudo element.
 
 ![Afterclicking on the textbox](https://github.com/t-sarthak/HTML-and-CSS-modules/assets/152780167/4183fdc7-4fc3-42a4-acf1-e4f1415c73f0)
 
-\
-### Login Form
+
+### 002 - Login Form
 
 ![image](https://github.com/t-sarthak/HTML-and-CSS-modules/assets/152780167/1ccea838-1e0d-4f1d-b9da-2d1c53f999ea)
 
