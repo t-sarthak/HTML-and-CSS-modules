@@ -1,0 +1,168 @@
+/**********************/
+/* GENERAL STYLES */
+/**********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  line-height: 1;
+  overflow: hidden;
+  /* To give some perspective to the background */
+  perspective: 50rem;
+}
+
+.head-ter {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+}
+
+/**********************/
+/* NAVIGATION BAR */
+/**********************/
+
+.sidenav {
+  /* background-color: #f2f2f2; */
+  width: 25rem;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  /* left: 2%; */
+  left: -20%;
+  transform: translate(0, -50%);
+  padding: 1.2rem 2.4rem;
+  transition: all 0.5s;
+}
+
+.nav-head {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.nav-icon-sec {
+  font-size: 3.2rem;
+  cursor: pointer;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #777;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #333;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+/**********************/
+/* MAIN BACKGROUND */
+/**********************/
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+  transition: all 0.5s;
+}
+
+.header {
+  margin-bottom: 6.4rem;
+}
+
+.nav {
+  padding: 2.4rem 4.8rem;
+}
+
+.nav-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.head-pri {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.head-pri-description {
+  font-size: 1.6rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 9.6rem;
+}
+
+.grid {
+  display: grid;
+  justify-content: space-around;
+  /* text-align: center; */
+  column-gap: 4.8rem;
+}
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  width: 20rem;
+  padding: 0.4rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.img-container {
+  /* width: 18rem; */
+  width: 100%;
+  height: 20rem;
+  margin-bottom: 2.4rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-content {
+  padding: 1.2rem 2rem;
+}
+
+.card-desc {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
